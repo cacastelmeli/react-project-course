@@ -34,7 +34,7 @@ const TodoList = ({
     setNextTodos(
       items.map(_item => {
         if (item.id !== _item.id) {
-          return item
+          return _item
         }
 
         return nextTodo
